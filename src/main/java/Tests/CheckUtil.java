@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class CheckUtil {
 
@@ -77,7 +79,7 @@ public class CheckUtil {
 
     }
 
-    public static Object emptyQuery(String divId) {
+    public static Object queryId(String query, String divId) {
         System.setProperty("webdriver.chrome.driver", chromeDriverPath);
 
         WebDriver driver = new ChromeDriver();
@@ -85,9 +87,10 @@ public class CheckUtil {
         driver.get(pirateUrl);
 
         try {
+
             WebElement inputField = driver.findElement(By.cssSelector("#search-input"));
 
-            inputField.sendKeys("");
+            inputField.sendKeys(query);
 
             WebElement searchButton = driver.findElement(By.id("search-button"));
 
@@ -96,6 +99,72 @@ public class CheckUtil {
             WebElement submitButton = driver.findElement(By.cssSelector(divId));
 
             return 0;
+        } catch (NoSuchElementException e) {
+
+            return 1;
+        }
+    }
+
+    public static Object islaQuery(String query, String element) {
+        System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+
+        WebDriver driver = new ChromeDriver();
+
+        driver.get(pirateUrl);
+
+        try {
+
+            WebElement inputField = driver.findElement(By.cssSelector("#search-input"));
+
+            inputField.sendKeys(query);
+
+            WebElement searchButton = driver.findElement(By.id("search-button"));
+
+            searchButton.click();
+
+            WebDriverWait wait = new WebDriverWait(driver, 10); // Wait 10 seconds
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.tagName("li")));
+
+
+            boolean liExists = driver.findElements(By.tagName(element)).size() > 0;
+            if (liExists) {
+                return 0;
+            } else {
+                return 1;
+            }
+        } catch (NoSuchElementException e) {
+
+            return 1;
+        }
+    }
+
+    public static Object portQuery(String query, String element) {
+        System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+
+        WebDriver driver = new ChromeDriver();
+
+        driver.get(pirateUrl);
+
+        try {
+
+            WebElement inputField = driver.findElement(By.cssSelector("#search-input"));
+
+            inputField.sendKeys(query);
+
+            WebElement searchButton = driver.findElement(By.id("search-button"));
+
+            searchButton.click();
+
+            WebDriverWait wait = new WebDriverWait(driver, 10); // Wait 10 seconds
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.tagName("li")));
+
+
+            boolean liExists = driver.findElements(By.tagName(element)).size() == 1;
+            if (liExists) {
+                return 0;
+            } else {
+                return 1;
+            }
         } catch (NoSuchElementException e) {
 
             return 1;

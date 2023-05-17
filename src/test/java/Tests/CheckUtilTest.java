@@ -17,8 +17,23 @@ public class CheckUtilTest {
     }
 
     @Test
-    public void chek_empty_query() {
-        assertEquals(0, CheckUtil.emptyQuery("#error-empty-query"));
+    public void check_empty_query() {
+        assertEquals(0, CheckUtil.queryId("","#error-empty-query"));
+    }
+
+    @Test
+    public void check_isla_query() {
+        assertEquals(0, CheckUtil.islaQuery("isla","li"));
+    }
+
+    @Test
+    public void check_no_results_feedback() {
+        assertEquals(0, CheckUtil.queryId("castle","#error-no-results"));
+    }
+
+    @Test
+    public void check_results_match_query() {
+        assertEquals(0, CheckUtil.portQuery("port","li"));
     }
 
 }
