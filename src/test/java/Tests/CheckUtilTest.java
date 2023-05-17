@@ -1,6 +1,5 @@
 package Tests;
 
-import static Tests.PasswordUtil.SecurityLevel.WEAK;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
