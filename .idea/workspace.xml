@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="cfc7cae5-edc9-480d-bed5-215836ab6e2d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tests/PasswordUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tests/CheckUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tests/CheckUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/CheckUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/CheckUtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/PasswordUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tests/CheckUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tests/CheckUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/CheckUtilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/CheckUtilTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
       <recent name="Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CheckUtilTest">
+  <component name="RunManager" selected="JUnit.CheckUtilTest.chek_empty_query">
     <configuration name="CheckUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tests.CheckUtil" />
       <module name="piratesProject" />
@@ -100,6 +101,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CheckUtilTest.chek_empty_query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="piratesProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CheckUtilTest" />
+      <option name="METHOD_NAME" value="chek_empty_query" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PasswordUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="piratesProject" />
       <extension name="coverage">
@@ -115,29 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordUtilTest.medium_when_has_less_than_letters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="piratesProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.PasswordUtilTest" />
-      <option name="METHOD_NAME" value="medium_when_has_less_than_letters" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CheckUtilTest.chek_empty_query" />
         <item itemvalue="JUnit.CheckUtilTest" />
         <item itemvalue="JUnit.CheckUtilTest.check_query_input" />
         <item itemvalue="Application.CheckUtil" />
         <item itemvalue="JUnit.PasswordUtilTest" />
-        <item itemvalue="JUnit.PasswordUtilTest.medium_when_has_less_than_letters" />
       </list>
     </recent_temporary>
   </component>

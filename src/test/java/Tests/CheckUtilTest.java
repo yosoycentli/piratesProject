@@ -16,4 +16,9 @@ public class CheckUtilTest {
 
     }
 
+    @Test
+    public void chek_empty_query() {
+        assertEquals(0, CheckUtil.emptyQuery("#error-empty-query"));
+    }
+
 }

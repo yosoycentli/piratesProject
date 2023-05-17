@@ -77,4 +77,33 @@ public class CheckUtil {
 
     }
 
+    public static Object emptyQuery(String divId) {
+        System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+
+        // Initialize Browser
+        WebDriver driver = new ChromeDriver();
+
+        // Open url
+        driver.get(pirateUrl);
+
+        try {
+            // Encontrar el campo de entrada por su selector (aquí se usa un selector CSS, pero puedes utilizar otros métodos de búsqueda)
+            WebElement inputField = driver.findElement(By.cssSelector("#search-input"));
+
+            // Ingresar texto en el campo de entrada
+            inputField.sendKeys("");
+
+            WebElement searchButton = driver.findElement(By.id("search-button"));
+
+            searchButton.click();
+            // Find element by id
+            WebElement submitButton = driver.findElement(By.cssSelector(divId));
+            // search-input id does exist
+            return 0;
+        } catch (NoSuchElementException e) {
+            // search-input id doesn't exist
+            return 1;
+        }
+    }
+
 }
