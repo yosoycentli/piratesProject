@@ -1,12 +1,15 @@
-package Tests;
+package tests;
 
 import static org.junit.Assert.*;
+
+import org.junit.Assert;
 import org.junit.Test;
+import pages.CheckUtil;
 
 public class CheckUtilTest {
     @Test
     public void check_query_input() {
-        assertEquals(0, CheckUtil.searchQuery("#search-input"));
+        Assert.assertEquals(0, CheckUtil.searchQuery("#search-input"));
 
     }
 

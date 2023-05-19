@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfc7cae5-edc9-480d-bed5-215836ab6e2d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CheckUtilTestNg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tests/CheckUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tests/CheckUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/CheckUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/CheckUtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Tests/CheckUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tests/CheckUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/CheckUtilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/CheckUtilTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tests/CheckUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CheckUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/CheckUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tests/CheckUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/CheckUtilTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
   </component>
@@ -43,8 +47,9 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "TestNG",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG": "",
     "settings.editor.selected.configurable": "editor.preferences.import"
   }
 }]]></component>
@@ -56,51 +61,18 @@
       <recent name="Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CheckUtilTest.check_results_match_query">
-    <configuration name="CheckUtilTest.check_empty_query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CheckUtilTestNgTest">
+    <configuration name="CheckUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="piratesProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tests.*" />
+          <option name="PATTERN" value="pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CheckUtilTest" />
-      <option name="METHOD_NAME" value="check_empty_query" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckUtilTest.check_isla_query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="piratesProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CheckUtilTest" />
-      <option name="METHOD_NAME" value="check_isla_query" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckUtilTest.check_no_results_feedback" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="piratesProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CheckUtilTest" />
-      <option name="METHOD_NAME" value="check_no_results_feedback" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="pages.CheckUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,41 +81,78 @@
       <module name="piratesProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tests.*" />
+          <option name="PATTERN" value="pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CheckUtilTest" />
+      <option name="MAIN_CLASS_NAME" value="pages.CheckUtilTest" />
       <option name="METHOD_NAME" value="check_results_match_query" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckUtilTest.chek_empty_query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckUtilTestNgTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piratesProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tests.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CheckUtilTest" />
-      <option name="METHOD_NAME" value="chek_empty_query" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTestNgTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckUtilTestNgTest.query_input_and_submit_button_are_on_the_main_screen" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="piratesProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTestNgTest" />
+      <option name="METHOD_NAME" value="query_input_and_submit_button_are_on_the_main_screen" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCheckUtilTestNg.query_input_and_submit_button_are_on_the_main_screen" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="piratesProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestCheckUtilTestNg" />
+      <option name="METHOD_NAME" value="query_input_and_submit_button_are_on_the_main_screen" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckUtilTestNgTest" />
+        <item itemvalue="TestNG.CheckUtilTestNgTest.query_input_and_submit_button_are_on_the_main_screen" />
+        <item itemvalue="TestNG.TestCheckUtilTestNg.query_input_and_submit_button_are_on_the_main_screen" />
         <item itemvalue="JUnit.CheckUtilTest.check_results_match_query" />
-        <item itemvalue="JUnit.CheckUtilTest.check_no_results_feedback" />
-        <item itemvalue="JUnit.CheckUtilTest.check_isla_query" />
-        <item itemvalue="JUnit.CheckUtilTest.check_empty_query" />
-        <item itemvalue="JUnit.CheckUtilTest.chek_empty_query" />
+        <item itemvalue="JUnit.CheckUtilTest" />
       </list>
     </recent_temporary>
   </component>
