@@ -7,10 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.AfterMethod;
-
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import pages.CheckUtilTestNg;
 
@@ -22,7 +19,7 @@ public class CheckUtilTestNgTest {
 
     CheckUtilTestNg objCheckUtilTestNg;
 
-    @BeforeTest
+    @BeforeClass
 
     public void setup(){
         System.setProperty("webdriver.chrome.driver", driverPath);
@@ -31,7 +28,13 @@ public class CheckUtilTestNgTest {
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
+    }
+
+    @BeforeMethod
+
+    public void openURL(){
         driver.get(pirateUrl);
+
     }
 
     /**
