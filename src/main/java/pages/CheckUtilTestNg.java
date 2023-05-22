@@ -1,6 +1,7 @@
 package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class CheckUtilTestNg {
     // Variables
@@ -9,25 +10,34 @@ public class CheckUtilTestNg {
 
     WebDriver driver;
 
+    String emptyQuery = "";
+
     By queryInputId = By.cssSelector("#search-input");
     By submitButton = By.cssSelector("#search-button");
-    By queryId = By.cssSelector("#search-button");
-    By emptyQuery = By.cssSelector("#search-button");
-    By divErrorId = By.cssSelector("#error-empty-query");
+    By ErrorEmptyQueryDivID = By.cssSelector("#error-empty-query");
 
     public CheckUtilTestNg(WebDriver driver){
         this.driver = driver;
     }
 
-    //Set empty query in the textbox
-
-    public void setEmptyQuery(String strEmptyQuery){
-        driver.findElement(queryId).sendKeys(strEmptyQuery);
-    }
-
-    //Get query input has id equal to search-input
     public Boolean getInputId(){
         return driver.findElement(queryInputId).isDisplayed();
+    }
+
+    public Boolean getSubmitButtonId(){
+        return driver.findElement(submitButton).isDisplayed();
+    }
+
+    public Boolean getErrorEmptyQueryDiv(){
+        return driver.findElement(ErrorEmptyQueryDivID).isDisplayed();
+    }
+
+    public Boolean setEmptyQuery(){
+        driver.findElement(queryInputId).sendKeys(emptyQuery);
+        WebElement searchButton = driver.findElement(submitButton);
+        searchButton.click();
+
+        return getErrorEmptyQueryDiv();
     }
 
 }

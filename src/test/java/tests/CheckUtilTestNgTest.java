@@ -13,7 +13,7 @@ import pages.CheckUtilTestNg;
 
 public class CheckUtilTestNgTest {
 
-    String driverPath = "/src/main/resources/drivers/chromedriver";
+    String driverPath = "/Users/centli.garcesencora.com/Documents/encora/pirate_task/piratesProject/src/main/resources/drivers/chromedriver";
     static String pirateUrl = "https://codility-frontend-prod.s3.amazonaws.com/media/task_static/qa_search/6f03f4361b080eeb747193aadd94cd2b/static/attachments/reference_page.html";
     WebDriver driver;
 
@@ -27,14 +27,12 @@ public class CheckUtilTestNgTest {
         driver = new ChromeDriver();
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
     }
 
     @BeforeMethod
 
     public void openURL(){
         driver.get(pirateUrl);
-
     }
 
     /**
@@ -47,10 +45,18 @@ public class CheckUtilTestNgTest {
 
         objCheckUtilTestNg = new CheckUtilTestNg(driver);
 
-        System.out.println(objCheckUtilTestNg.getInputId());
         Assert.assertTrue(objCheckUtilTestNg.getInputId());
+        Assert.assertTrue(objCheckUtilTestNg.getSubmitButtonId());
+    }
 
+    @Test(priority = 0)
 
+    public void check_if_searching_with_empty_query_is_forbidden(){
+        //Create CheckUtilTestNgTest object
+
+        objCheckUtilTestNg = new CheckUtilTestNg(driver);
+
+        Assert.assertTrue(objCheckUtilTestNg.setEmptyQuery());
     }
 
     @AfterMethod
