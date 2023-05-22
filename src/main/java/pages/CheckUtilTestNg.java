@@ -16,9 +16,15 @@ public class CheckUtilTestNg {
 
     String liElement = "li";
 
+    String castleQuery = "castle";
+
+    String portQuery = "port";
+
     By queryInputId = By.cssSelector("#search-input");
     By submitButton = By.cssSelector("#search-button");
     By ErrorEmptyQueryDivID = By.cssSelector("#error-empty-query");
+
+    By NoResultsDivID = By.cssSelector("#error-no-results");
 
     public CheckUtilTestNg(WebDriver driver){
         this.driver = driver;
@@ -54,6 +60,30 @@ public class CheckUtilTestNg {
         searchButton.click();
 
         return GetAtLeastOneIslandDiv();
+    }
+
+    public Boolean GetANoResultsDiv(){
+        return driver.findElement(NoResultsDivID).isDisplayed();
+    }
+
+    public Boolean setCastleQuery(){
+        driver.findElement(queryInputId).sendKeys(castleQuery);
+        WebElement searchButton = driver.findElement(submitButton);
+        searchButton.click();
+
+        return GetANoResultsDiv();
+    }
+
+    public Boolean GetOnlyOneLiElement(){
+        return driver.findElements(By.tagName(liElement)).size() == 1;
+    }
+
+    public Boolean setPortQuery(){
+        driver.findElement(queryInputId).sendKeys(portQuery);
+        WebElement searchButton = driver.findElement(submitButton);
+        searchButton.click();
+
+        return GetOnlyOneLiElement();
     }
 
 }

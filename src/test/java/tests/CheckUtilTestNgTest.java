@@ -61,13 +61,31 @@ public class CheckUtilTestNgTest {
     }
 
     @Test(priority = 0)
-    
+
     public void check_if_searching_with_isla_query_returns_at_least_one_island(){
         //Create CheckUtilTestNgTest object
 
         objCheckUtilTestNg = new CheckUtilTestNg(driver);
 
         Assert.assertTrue(objCheckUtilTestNg.setIslaQuery());
+    }
+
+    @Test(priority = 0)
+
+    public void check_if_searching_with_castle_query_returns_no_results_feedback(){
+        //Create CheckUtilTestNgTest object
+
+        objCheckUtilTestNg = new CheckUtilTestNg(driver);
+
+        Assert.assertTrue(objCheckUtilTestNg.setCastleQuery());
+    }
+
+    @Test(priority = 0)
+
+    public void check_if_results_match_the_query(){
+        objCheckUtilTestNg = new CheckUtilTestNg(driver);
+
+        Assert.assertTrue(objCheckUtilTestNg.setPortQuery());
     }
 
     @AfterMethod
