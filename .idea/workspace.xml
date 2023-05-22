@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfc7cae5-edc9-480d-bed5-215836ab6e2d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/CheckUtilTestNg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CheckUtilTestNg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgTest.java" afterDir="false" />
     </list>
@@ -56,23 +55,7 @@
       <recent name="Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckUtilTestNgTest.check_if_searching_with_empty_query_is_forbidden">
-    <configuration name="CheckUtilTest.check_results_match_query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="piratesProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="pages.CheckUtilTest" />
-      <option name="METHOD_NAME" value="check_results_match_query" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.CheckUtilTestNgTest.check_if_searching_with_isla_query_returns_at_least_one_island">
     <configuration name="CheckUtilTestNgTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piratesProject" />
       <extension name="coverage">
@@ -101,6 +84,24 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTestNgTest" />
       <option name="METHOD_NAME" value="check_if_searching_with_empty_query_is_forbidden" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckUtilTestNgTest.check_if_searching_with_isla_query_returns_at_least_one_island" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="piratesProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTestNgTest" />
+      <option name="METHOD_NAME" value="check_if_searching_with_isla_query_returns_at_least_one_island" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckUtilTestNgTest.check_if_searching_with_isla_query_returns_at_least_one_island" />
         <item itemvalue="TestNG.CheckUtilTestNgTest.check_if_searching_with_empty_query_is_forbidden" />
         <item itemvalue="TestNG.CheckUtilTestNgTest" />
         <item itemvalue="TestNG.CheckUtilTestNgTest.query_input_and_submit_button_are_on_the_main_screen" />
         <item itemvalue="TestNG.TestCheckUtilTestNg.query_input_and_submit_button_are_on_the_main_screen" />
-        <item itemvalue="JUnit.CheckUtilTest.check_results_match_query" />
       </list>
     </recent_temporary>
   </component>

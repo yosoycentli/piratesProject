@@ -12,6 +12,10 @@ public class CheckUtilTestNg {
 
     String emptyQuery = "";
 
+    String islaQuery = "isla";
+
+    String liElement = "li";
+
     By queryInputId = By.cssSelector("#search-input");
     By submitButton = By.cssSelector("#search-button");
     By ErrorEmptyQueryDivID = By.cssSelector("#error-empty-query");
@@ -38,6 +42,18 @@ public class CheckUtilTestNg {
         searchButton.click();
 
         return getErrorEmptyQueryDiv();
+    }
+
+    public Boolean GetAtLeastOneIslandDiv(){
+        return driver.findElements(By.tagName(liElement)).size() > 0;
+    }
+
+    public Boolean setIslaQuery(){
+        driver.findElement(queryInputId).sendKeys(islaQuery);
+        WebElement searchButton = driver.findElement(submitButton);
+        searchButton.click();
+
+        return GetAtLeastOneIslandDiv();
     }
 
 }

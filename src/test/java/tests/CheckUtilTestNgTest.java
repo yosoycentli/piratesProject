@@ -1,5 +1,6 @@
 package tests;
 
+import java.security.PublicKey;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -57,6 +58,16 @@ public class CheckUtilTestNgTest {
         objCheckUtilTestNg = new CheckUtilTestNg(driver);
 
         Assert.assertTrue(objCheckUtilTestNg.setEmptyQuery());
+    }
+
+    @Test(priority = 0)
+    
+    public void check_if_searching_with_isla_query_returns_at_least_one_island(){
+        //Create CheckUtilTestNgTest object
+
+        objCheckUtilTestNg = new CheckUtilTestNg(driver);
+
+        Assert.assertTrue(objCheckUtilTestNg.setIslaQuery());
     }
 
     @AfterMethod
