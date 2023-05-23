@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfc7cae5-edc9-480d-bed5-215836ab6e2d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +45,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "TestNG",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG": "",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -54,7 +56,7 @@
       <recent name="Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckUtilTestNgTest.check_if_results_match_the_query">
+  <component name="RunManager" selected="TestNG.CheckUtilTestNgTest">
     <configuration name="CheckUtilTestNgTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piratesProject" />
       <extension name="coverage">
@@ -108,24 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckUtilTestNgTest.check_if_searching_with_empty_query_is_forbidden" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="piratesProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTestNgTest" />
-      <option name="METHOD_NAME" value="check_if_searching_with_empty_query_is_forbidden" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CheckUtilTestNgTest.check_if_searching_with_isla_query_returns_at_least_one_island" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piratesProject" />
       <extension name="coverage">
@@ -144,13 +128,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CheckUtilTestNgTest.query_input_and_submit_button_are_on_the_main_screen" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="piratesProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTestNgTest" />
+      <option name="METHOD_NAME" value="query_input_and_submit_button_are_on_the_main_screen" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckUtilTestNgTest" />
+        <item itemvalue="TestNG.CheckUtilTestNgTest.query_input_and_submit_button_are_on_the_main_screen" />
         <item itemvalue="TestNG.CheckUtilTestNgTest.check_if_results_match_the_query" />
         <item itemvalue="TestNG.CheckUtilTestNgTest.check_if_searching_with_castle_query_returns_no_results_feedback" />
         <item itemvalue="TestNG.CheckUtilTestNgTest.check_if_searching_with_isla_query_returns_at_least_one_island" />
-        <item itemvalue="TestNG.CheckUtilTestNgTest.check_if_searching_with_empty_query_is_forbidden" />
-        <item itemvalue="TestNG.CheckUtilTestNgTest" />
       </list>
     </recent_temporary>
   </component>
