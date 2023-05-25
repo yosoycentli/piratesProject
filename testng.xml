@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" thread-count="3">
+<suite name="Pirate QA Automation Task">
     <test name="All tests in pirate url">
         <classes>
             <class name="tests.CheckUtilTestNgTest"/>
