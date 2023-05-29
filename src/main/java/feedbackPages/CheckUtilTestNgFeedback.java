@@ -7,6 +7,15 @@ import org.openqa.selenium.WebElement;
 
 public class CheckUtilTestNgFeedback {
     // Variables
+
+    By queryInputId = By.cssSelector("#search-input");
+
+    By submitButton = By.cssSelector("#search-button");
+
+    By ErrorEmptyQueryDivID = By.cssSelector("#error-empty-query");
+
+    By NoResultsDivID = By.cssSelector("#error-no-results");
+    
     WebDriver driver;
 
     String emptyQuery = "";
@@ -18,12 +27,6 @@ public class CheckUtilTestNgFeedback {
     String castleQuery = "castle";
 
     String portQuery = "port";
-
-    By queryInputId = By.cssSelector("#search-input");
-    By submitButton = By.cssSelector("#search-button");
-    By ErrorEmptyQueryDivID = By.cssSelector("#error-empty-query");
-
-    By NoResultsDivID = By.cssSelector("#error-no-results");
 
     public CheckUtilTestNgFeedback(WebDriver driver){
         this.driver = driver;
