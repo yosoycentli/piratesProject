@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfc7cae5-edc9-480d-bed5-215836ab6e2d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/feedbackPages/CheckUtilTestNgFeedback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgFeedbackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/CheckUtilTestNgTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/CheckUtilTestNgTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="TestNG Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -29,6 +31,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2PfLxBVWUQ4oQrWBdXeeLia9lZy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,17 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "TestNG",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG": "",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;TestNG&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG&quot;: &quot;&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -56,7 +65,72 @@
       <recent name="Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckUtilTestNgTest">
+  <component name="RunManager" selected="TestNG.CheckUtilTestNgFeedbackTest">
+    <configuration name="CheckUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="piratesProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckUtilTest.check_query_input" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="piratesProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTest" />
+      <option name="METHOD_NAME" value="check_query_input" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckUtiRlTestNgTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="piratesProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CheckUtiRlTestNgTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckUtilTestNgFeedbackTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="piratesProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTestNgFeedbackTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CheckUtilTestNgTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piratesProject" />
       <extension name="coverage">
@@ -74,85 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckUtilTestNgTest.check_if_results_match_the_query" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="piratesProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTestNgTest" />
-      <option name="METHOD_NAME" value="check_if_results_match_the_query" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckUtilTestNgTest.check_if_searching_with_castle_query_returns_no_results_feedback" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="piratesProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTestNgTest" />
-      <option name="METHOD_NAME" value="check_if_searching_with_castle_query_returns_no_results_feedback" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckUtilTestNgTest.check_if_searching_with_isla_query_returns_at_least_one_island" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="piratesProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTestNgTest" />
-      <option name="METHOD_NAME" value="check_if_searching_with_isla_query_returns_at_least_one_island" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckUtilTestNgTest.query_input_and_submit_button_are_on_the_main_screen" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="piratesProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTestNgTest" />
-      <option name="METHOD_NAME" value="query_input_and_submit_button_are_on_the_main_screen" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckUtilTestNgTest" />
-        <item itemvalue="TestNG.CheckUtilTestNgTest.query_input_and_submit_button_are_on_the_main_screen" />
-        <item itemvalue="TestNG.CheckUtilTestNgTest.check_if_results_match_the_query" />
-        <item itemvalue="TestNG.CheckUtilTestNgTest.check_if_searching_with_castle_query_returns_no_results_feedback" />
-        <item itemvalue="TestNG.CheckUtilTestNgTest.check_if_searching_with_isla_query_returns_at_least_one_island" />
+        <item itemvalue="TestNG.CheckUtilTestNgFeedbackTest" />
+        <item itemvalue="TestNG.CheckUtilTestNgTest (1)" />
+        <item itemvalue="JUnit.CheckUtilTest" />
+        <item itemvalue="TestNG.CheckUtiRlTestNgTest" />
+        <item itemvalue="JUnit.CheckUtilTest.check_query_input" />
       </list>
     </recent_temporary>
   </component>
