@@ -15,18 +15,10 @@ public class CheckUtilTestNgFeedback {
     By ErrorEmptyQueryDivID = By.cssSelector("#error-empty-query");
 
     By NoResultsDivID = By.cssSelector("#error-no-results");
-    
+
     WebDriver driver;
 
-    String emptyQuery = "";
-
-    String islaQuery = "isla";
-
     String liElement = "li";
-
-    String castleQuery = "castle";
-
-    String portQuery = "port";
 
     public CheckUtilTestNgFeedback(WebDriver driver){
         this.driver = driver;
@@ -45,6 +37,9 @@ public class CheckUtilTestNgFeedback {
     }
 
     public Boolean setEmptyQuery(){
+
+        String emptyQuery = "";
+
         driver.findElement(queryInputId).sendKeys(emptyQuery);
         WebElement searchButton = driver.findElement(submitButton);
         searchButton.click();
@@ -57,6 +52,8 @@ public class CheckUtilTestNgFeedback {
     }
 
     public Boolean setIslaQuery(){
+        String islaQuery = "isla";
+
         driver.findElement(queryInputId).sendKeys(islaQuery);
         WebElement searchButton = driver.findElement(submitButton);
         searchButton.click();
@@ -69,6 +66,8 @@ public class CheckUtilTestNgFeedback {
     }
 
     public Boolean setCastleQuery(){
+        String castleQuery = "castle";
+
         driver.findElement(queryInputId).sendKeys(castleQuery);
         WebElement searchButton = driver.findElement(submitButton);
         searchButton.click();
@@ -81,6 +80,8 @@ public class CheckUtilTestNgFeedback {
     }
 
     public Boolean setPortQuery(){
+        String portQuery = "port";
+
         driver.findElement(queryInputId).sendKeys(portQuery);
         WebElement searchButton = driver.findElement(submitButton);
         searchButton.click();
