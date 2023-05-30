@@ -6,8 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class CheckUtilTestNgFeedback {
-    // Variables
-
     By queryInputId = By.cssSelector("#search-input");
 
     By submitButton = By.cssSelector("#search-button");
@@ -16,9 +14,9 @@ public class CheckUtilTestNgFeedback {
 
     By NoResultsDivID = By.cssSelector("#error-no-results");
 
-    WebDriver driver;
+    By liElement = By.tagName("li");
 
-    String liElement = "li";
+    WebDriver driver;
 
     public CheckUtilTestNgFeedback(WebDriver driver){
         this.driver = driver;
@@ -48,7 +46,7 @@ public class CheckUtilTestNgFeedback {
     }
 
     public Boolean GetAtLeastOneIslandDiv(){
-        return driver.findElements(By.tagName(liElement)).size() > 0;
+        return driver.findElements(liElement).size() > 0;
     }
 
     public Boolean setIslaQuery(){
@@ -76,7 +74,7 @@ public class CheckUtilTestNgFeedback {
     }
 
     public Boolean GetOnlyOneLiElement(){
-        return driver.findElements(By.tagName(liElement)).size() == 1;
+        return driver.findElements(liElement).size() == 1;
     }
 
     public Boolean setPortQuery(){

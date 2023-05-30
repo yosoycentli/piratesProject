@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfc7cae5-edc9-480d-bed5-215836ab6e2d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/feedbackPages/CheckUtilTestNgFeedback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/feedbackPages/CheckUtilTestNgFeedback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgFeedbackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgFeedbackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/feedbackPages/CheckUtilTestNgFeedback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/feedbackPages/CheckUtilTestNgFeedback.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

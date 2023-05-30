@@ -6,8 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-import feedbackPages.CheckUtilTestNgFeedback;
-
 import java.util.concurrent.TimeUnit;
 
 public class CheckUtilTestNgFeedbackTest {
@@ -38,6 +36,9 @@ public class CheckUtilTestNgFeedbackTest {
     public void openURL(){
 
         driver.get(BASE_URL+PATH);
+
+        //Create CheckUtilTestNgTest object
+        objCheckUtilTestNgFeedback = new CheckUtilTestNgFeedback(driver);
     }
 
     /**
@@ -46,10 +47,6 @@ public class CheckUtilTestNgFeedbackTest {
     @Test()
 
     public void query_input_and_submit_button_are_on_the_main_screen(){
-        //Create CheckUtilTestNgTest object
-
-        objCheckUtilTestNgFeedback = new CheckUtilTestNgFeedback(driver);
-
         Assert.assertTrue(objCheckUtilTestNgFeedback.getInputId(),"Verify input text box is on main screen of the application");
         Assert.assertTrue(objCheckUtilTestNgFeedback.getSubmitButtonId(), "Verify submit button is on main screen of the application");
     }
@@ -57,38 +54,24 @@ public class CheckUtilTestNgFeedbackTest {
     @Test()
 
     public void check_if_searching_with_empty_query_is_forbidden(){
-        //Create CheckUtilTestNgTest object
-
-        objCheckUtilTestNgFeedback = new CheckUtilTestNgFeedback(driver);
-
         Assert.assertTrue(objCheckUtilTestNgFeedback.setEmptyQuery(), "Verify if searching with empty query is forbidden");
     }
 
     @Test()
 
     public void check_if_searching_with_isla_query_returns_at_least_one_island(){
-        //Create CheckUtilTestNgTest object
-
-        objCheckUtilTestNgFeedback = new CheckUtilTestNgFeedback(driver);
-
         Assert.assertTrue(objCheckUtilTestNgFeedback.setIslaQuery(), "Verify if 'island' query is returned at least one <li> result element");
     }
 
     @Test()
 
     public void check_if_searching_with_castle_query_returns_no_results_feedback(){
-        //Create CheckUtilTestNgTest object
-
-        objCheckUtilTestNgFeedback = new CheckUtilTestNgFeedback(driver);
-
         Assert.assertTrue(objCheckUtilTestNgFeedback.setCastleQuery(), "Verify if user gets feedback if there are no results");
     }
 
     @Test()
 
     public void check_if_results_match_the_query(){
-        objCheckUtilTestNgFeedback = new CheckUtilTestNgFeedback(driver);
-
         Assert.assertTrue(objCheckUtilTestNgFeedback.setPortQuery(), "Verify if querying for port should return only one result, Port Royal");
     }
 
