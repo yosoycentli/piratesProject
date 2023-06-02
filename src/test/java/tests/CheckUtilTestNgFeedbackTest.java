@@ -3,6 +3,9 @@ import feedbackPages.CheckUtilTestNgFeedback;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import org.testng.Assert;
 import org.testng.annotations.*;
 
@@ -14,6 +17,8 @@ public class CheckUtilTestNgFeedbackTest {
 
     CheckUtilTestNgFeedback objCheckUtilTestNgFeedback;
 
+    Logger logger = LoggerFactory.getLogger(CheckUtilTestNgFeedbackTest.class);
+
     private final static String DRIVER_PATH = "/Users/centli.garcesencora.com/Documents/encora/pirate_task/piratesProject/src/main/resources/drivers/chromedriver";
 
     private final static String BASE_URL = "https://codility-frontend-prod.s3.amazonaws.com/";
@@ -23,6 +28,7 @@ public class CheckUtilTestNgFeedbackTest {
     @BeforeClass(alwaysRun = true)
 
     public void setup(){
+        logger.info("Setup starting");
         System.setProperty("webdriver.chrome.driver", DRIVER_PATH);
 
         driver = new ChromeDriver();
@@ -34,16 +40,11 @@ public class CheckUtilTestNgFeedbackTest {
     @BeforeMethod
 
     public void openURL(){
-
         driver.get(BASE_URL+PATH);
 
-        //Create CheckUtilTestNgTest object
         objCheckUtilTestNgFeedback = new CheckUtilTestNgFeedback(driver);
     }
 
-    /**
-     * This case will check if query input and submit button are on the main screen of the application
-     */
     @Test()
 
     public void query_input_and_submit_button_are_on_the_main_screen(){
@@ -77,6 +78,7 @@ public class CheckUtilTestNgFeedbackTest {
 
     @AfterClass
     public void tearDown() {
+        logger.info("Close the browser");
         driver.quit();
     }
 
