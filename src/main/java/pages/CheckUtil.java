@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 public class CheckUtil {
 
     static String pirateUrl = "https://codility-frontend-prod.s3.amazonaws.com/media/task_static/qa_search/6f03f4361b080eeb747193aadd94cd2b/static/attachments/reference_page.html";
-    static String chromeDriverPath = "/Users/centli.garcesencora.com/Documents/encora/pirate_task/piratesProject/src/main/resources/drivers/chromedriver";
+    static String chromeDriverPath = "./src/main/resources/drivers/chromedriver";
 
 
     public static Object searchQuery(String queryInputId) {

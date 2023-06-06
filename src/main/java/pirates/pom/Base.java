@@ -12,7 +12,7 @@ public class Base {
     By submitButton = By.cssSelector("#search-button");
 
     By queryInputId = By.cssSelector("#search-input");
-    private final static String DRIVER_PATH = "/Users/centli.garcesencora.com/Documents/encora/pirate_task/piratesProject/src/main/resources/drivers/chromedriver";
+    private final static String DRIVER_PATH = "./src/main/resources/drivers/chromedriver";
 
     //Declare webDriver Object
     private WebDriver driver;

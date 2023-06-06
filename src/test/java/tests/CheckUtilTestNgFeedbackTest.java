@@ -19,7 +19,7 @@ public class CheckUtilTestNgFeedbackTest {
 
     Logger logger = LoggerFactory.getLogger(CheckUtilTestNgFeedbackTest.class);
 
-    private final static String DRIVER_PATH = "/Users/centli.garcesencora.com/Documents/encora/pirate_task/piratesProject/src/main/resources/drivers/chromedriver";
+    private final static String DRIVER_PATH = "./src/main/resources/drivers/chromedriver";
 
     private final static String BASE_URL = "https://codility-frontend-prod.s3.amazonaws.com/";
 

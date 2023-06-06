@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfc7cae5-edc9-480d-bed5-215836ab6e2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pirates.pom.tests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pirates/pom/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageEmptySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetANoResultDiv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetAtLeastOneIslandDiv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetOnlyOneLiElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pirates/pom/LandingPageEmptySearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pirates/pom/LandingPageGetANoResultDivTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pirates/pom/LandingPageGetAtLeastOneIslandDivTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pirates/pom/LandingPageGetElementsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pirates/pom/LandingPageGetOnlyOneLiElementTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CheckUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CheckUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pirates/pom/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pirates/pom/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgFeedbackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgFeedbackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pirates/pom/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pirates/pom/Base.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,17 +67,17 @@
       <recent name="Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/centli.garcesencora.com/Documents/encora/pirate_task/piratesProject/pirates.pom.tests.xml">
-    <configuration name="LandingPageGetANoResultDivTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CheckUtilTestNgFeedbackTest">
+    <configuration name="CheckUtilTestNgFeedbackTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piratesProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pirates.pom.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pirates.pom" />
-      <option name="MAIN_CLASS_NAME" value="pirates.pom.LandingPageGetANoResultDivTest" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTestNgFeedbackTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -92,7 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LandingPageGetAtLeastOneIslandDivTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LandingPageEmptySearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piratesProject" />
       <extension name="coverage">
         <pattern>
@@ -101,7 +94,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pirates.pom" />
-      <option name="MAIN_CLASS_NAME" value="pirates.pom.LandingPageGetAtLeastOneIslandDivTest" />
+      <option name="MAIN_CLASS_NAME" value="pirates.pom.LandingPageEmptySearchTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -148,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckUtilTestNgFeedbackTest" />
+        <item itemvalue="TestNG.LandingPageEmptySearchTest" />
         <item itemvalue="TestNG./Users/centli.garcesencora.com/Documents/encora/pirate_task/piratesProject/pirates.pom.tests.xml" />
         <item itemvalue="TestNG./Users/centli.garcesencora.com/Documents/encora/pirate_task/piratesProject/testng.xml" />
         <item itemvalue="TestNG.LandingPageGetOnlyOneLiElementTest" />
-        <item itemvalue="TestNG.LandingPageGetAtLeastOneIslandDivTest" />
-        <item itemvalue="TestNG.LandingPageGetANoResultDivTest" />
       </list>
     </recent_temporary>
   </component>

@@ -13,7 +13,7 @@ import pages.CheckUtilTestNg;
 
 public class CheckUtilTestNgTest {
 
-    String driverPath = "/Users/centli.garcesencora.com/Documents/encora/pirate_task/piratesProject/src/main/resources/drivers/chromedriver";
+    String driverPath = "./src/main/resources/drivers/chromedriver";
     static String pirateUrl = "https://codility-frontend-prod.s3.amazonaws.com/media/task_static/qa_search/6f03f4361b080eeb747193aadd94cd2b/static/attachments/reference_page.html";
     WebDriver driver;
 
