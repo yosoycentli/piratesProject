@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Pirate QA Automation POM Task">
+    <test name="All tests in pirate url">
+        <classes>
+            <class name="pirates.pom.LandingPageEmptySearchTest"/>
+            <class name="pirates.pom.LandingPageGetANoResultDivTest"/>
+            <class name="pirates.pom.LandingPageGetAtLeastOneIslandDivTest"/>
+            <class name="pirates.pom.LandingPageGetElementsTest"/>
+            <class name="pirates.pom.LandingPageGetOnlyOneLiElementTest"/>
+        </classes>
+    </test>
+</suite>

@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfc7cae5-edc9-480d-bed5-215836ab6e2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_32.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_7.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/pirates.pom.tests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pirates/pom/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageEmptySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetANoResultDiv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetAtLeastOneIslandDiv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetOnlyOneLiElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pirates/pom/LandingPageEmptySearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pirates/pom/LandingPageGetANoResultDivTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pirates/pom/LandingPageGetAtLeastOneIslandDivTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pirates/pom/LandingPageGetElementsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pirates/pom/LandingPageGetOnlyOneLiElementTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/piratesProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/piratesProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgFeedbackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgFeedbackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/CheckUtilTestNgFeedbackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/CheckUtilTestNgFeedbackTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,48 +74,17 @@
       <recent name="Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckUtilTestNgFeedbackTest">
-    <configuration name="CheckUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/centli.garcesencora.com/Documents/encora/pirate_task/piratesProject/pirates.pom.tests.xml">
+    <configuration name="LandingPageGetANoResultDivTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piratesProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="pirates.pom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckUtilTest.check_query_input" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="piratesProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTest" />
-      <option name="METHOD_NAME" value="check_query_input" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckUtiRlTestNgTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="piratesProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CheckUtiRlTestNgTest" />
+      <option name="PACKAGE_NAME" value="pirates.pom" />
+      <option name="MAIN_CLASS_NAME" value="pirates.pom.LandingPageGetANoResultDivTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -118,16 +92,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckUtilTestNgFeedbackTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LandingPageGetAtLeastOneIslandDivTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piratesProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="pirates.pom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTestNgFeedbackTest" />
+      <option name="PACKAGE_NAME" value="pirates.pom" />
+      <option name="MAIN_CLASS_NAME" value="pirates.pom.LandingPageGetAtLeastOneIslandDivTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -135,17 +109,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckUtilTestNgTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LandingPageGetOnlyOneLiElementTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piratesProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="pirates.pom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CheckUtilTestNgTest" />
+      <option name="PACKAGE_NAME" value="pirates.pom" />
+      <option name="MAIN_CLASS_NAME" value="pirates.pom.LandingPageGetOnlyOneLiElementTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/centli.garcesencora.com/Documents/encora/pirate_task/piratesProject/pirates.pom.tests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="piratesProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/pirates.pom.tests.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/centli.garcesencora.com/Documents/encora/pirate_task/piratesProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="piratesProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -154,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckUtilTestNgFeedbackTest" />
-        <item itemvalue="TestNG.CheckUtilTestNgTest (1)" />
-        <item itemvalue="JUnit.CheckUtilTest" />
-        <item itemvalue="TestNG.CheckUtiRlTestNgTest" />
-        <item itemvalue="JUnit.CheckUtilTest.check_query_input" />
+        <item itemvalue="TestNG./Users/centli.garcesencora.com/Documents/encora/pirate_task/piratesProject/pirates.pom.tests.xml" />
+        <item itemvalue="TestNG./Users/centli.garcesencora.com/Documents/encora/pirate_task/piratesProject/testng.xml" />
+        <item itemvalue="TestNG.LandingPageGetOnlyOneLiElementTest" />
+        <item itemvalue="TestNG.LandingPageGetAtLeastOneIslandDivTest" />
+        <item itemvalue="TestNG.LandingPageGetANoResultDivTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,5 +180,44 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetAtLeastOneIslandDiv.java</url>
+          <line>9</line>
+          <properties class="pirates.pom.LandingPageGetAtLeastOneIslandDiv" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetAtLeastOneIslandDiv.java</url>
+          <line>13</line>
+          <properties class="pirates.pom.LandingPageGetAtLeastOneIslandDiv" method="GetAtLeastOneIslandDiv">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetAtLeastOneIslandDiv.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetAtLeastOneIslandDiv.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetAtLeastOneIslandDiv.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
