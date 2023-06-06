@@ -12,7 +12,7 @@ public class LandingPageGetOnlyOneLiElement extends Base{
         super(driver);
     }
 
-    public boolean GetOnlyOneElement(){
+    public boolean GetOnlyOnePortElement(){
         type("port", queryInputId);
         click(submitButton);
         return GetOnlyOneElement(liElement);

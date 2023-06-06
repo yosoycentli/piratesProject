@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfc7cae5-edc9-480d-bed5-215836ab6e2d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CheckUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CheckUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pirates/pom/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pirates/pom/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgFeedbackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgFeedbackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CheckUtilTestNgTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pirates/pom/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pirates/pom/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pirates.pom.tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pirates.pom.tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetAtLeastOneIslandDiv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetAtLeastOneDivElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetOnlyOneLiElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetOnlyOneLiElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pirates/pom/LandingPageGetAtLeastOneIslandDivTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pirates/pom/LandingPageGetAtLeastOneDivElementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pirates/pom/LandingPageGetOnlyOneLiElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pirates/pom/LandingPageGetOnlyOneLiElementTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,44 +172,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetAtLeastOneIslandDiv.java</url>
-          <line>9</line>
-          <properties class="pirates.pom.LandingPageGetAtLeastOneIslandDiv" method="&lt;init&gt;">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetAtLeastOneIslandDiv.java</url>
-          <line>13</line>
-          <properties class="pirates.pom.LandingPageGetAtLeastOneIslandDiv" method="GetAtLeastOneIslandDiv">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetAtLeastOneIslandDiv.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetAtLeastOneIslandDiv.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pirates/pom/LandingPageGetAtLeastOneIslandDiv.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

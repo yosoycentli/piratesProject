@@ -12,11 +12,11 @@ import tests.CheckUtilTestNgFeedbackTest;
 
 import java.util.concurrent.TimeUnit;
 
-public class LandingPageGetAtLeastOneIslandDivTest {
+public class LandingPageGetAtLeastOneDivElementTest {
 
     private WebDriver driver;
 
-    LandingPageGetAtLeastOneIslandDiv landingPageGetAtLeastOneIslandDiv;
+    LandingPageGetAtLeastOneDivElement landingPageGetAtLeastOneDivElement;
 
     Logger logger = LoggerFactory.getLogger(CheckUtilTestNgFeedbackTest.class);
 
@@ -28,9 +28,9 @@ public class LandingPageGetAtLeastOneIslandDivTest {
 
     public void setup() throws Exception{
         logger.info("Setup starting");
-        landingPageGetAtLeastOneIslandDiv = new LandingPageGetAtLeastOneIslandDiv(driver);
-        driver = landingPageGetAtLeastOneIslandDiv.chromeDriverConnection();
-        landingPageGetAtLeastOneIslandDiv.visit(BASE_URL+PATH);
+        landingPageGetAtLeastOneDivElement = new LandingPageGetAtLeastOneDivElement(driver);
+        driver = landingPageGetAtLeastOneDivElement.chromeDriverConnection();
+        landingPageGetAtLeastOneDivElement.visit(BASE_URL+PATH);
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
@@ -54,7 +54,7 @@ public class LandingPageGetAtLeastOneIslandDivTest {
     @Test()
 
     public void check_if_searching_with_isla_query_returns_at_least_one_island(){
-        Assert.assertTrue(landingPageGetAtLeastOneIslandDiv.GetAtLeastOneIslandDiv(),"Verify if 'island' query is returned at least one <li> result element");
+        Assert.assertTrue(landingPageGetAtLeastOneDivElement.GetAtLeastOneIslandDiv(),"Verify if 'island' query is returned at least one <li> result element");
     }
 
 }

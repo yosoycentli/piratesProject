@@ -54,7 +54,7 @@ public class LandingPageGetOnlyOneLiElementTest {
     @Test()
 
     public void check_if_results_match_the_query(){
-        Assert.assertTrue(landingPageGetOnlyOneLiElement.GetOnlyOneElement(),"Verify if querying for port should return only one result, Port Royal");
+        Assert.assertTrue(landingPageGetOnlyOneLiElement.GetOnlyOnePortElement(),"Verify if querying for port should return only one result, Port Royal");
     }
 
 }

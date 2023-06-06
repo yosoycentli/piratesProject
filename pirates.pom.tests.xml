@@ -4,7 +4,7 @@
         <classes>
             <class name="pirates.pom.LandingPageEmptySearchTest"/>
             <class name="pirates.pom.LandingPageGetANoResultDivTest"/>
-            <class name="pirates.pom.LandingPageGetAtLeastOneIslandDivTest"/>
+            <class name="pirates.pom.LandingPageGetAtLeastOneDivElementTest"/>
             <class name="pirates.pom.LandingPageGetElementsTest"/>
             <class name="pirates.pom.LandingPageGetOnlyOneLiElementTest"/>
         </classes>
